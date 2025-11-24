@@ -1,0 +1,19 @@
+Project Statement: Python Command Line Store (PyCart)
+
+1. Executive Summary
+
+The Python Command Line Store (PyCart) is a core e-commerce simulation developed entirely in Python 3.x. The primary objective of this project is to demonstrate foundational programming principles, including Object-Oriented Programming (OOP) via the Product class, robust data handling through input validation and type checking, and external file persistence using the standard json library. The application provides a full-cycle shopping experience in a command-line environment.
+
+2. Technical Implementation Highlights
+
+Object-Oriented Design: The store utilizes a Product class to model inventory items, centralizing their properties (ID, name, price, stock) and methods (e.g., converting to a dictionary for saving).
+
+Data Persistence: The application implements save and load functionality, ensuring that inventory stock levels and the user's current cart status are maintained between application runs via the shopping_data.json file.
+
+Input Validation: User interactions (e.g., adding to cart) are rigorously checked to ensure non-numeric inputs are handled gracefully and to prevent overselling past the available stock limits.
+
+Core Logic: The system manages three essential components: a main inventory of available products, a persistent cart tracking the user's selections, and a checkout process that links these two by updating the stock upon purchase.
+
+3. Project Scope and Value
+
+This project is highly suitable for a first-semester computer science course as it effectively integrates several fundamental concepts into a cohesive, runnable program. It proves the ability to manage complex data structures (dictionaries and custom objects) and perform practical file input/output operations.
